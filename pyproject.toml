@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clash-jev"
+version = "0.1.0"
+description = "Clash Royale bot where Jev picks every move from the captured battle state and its legal options"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+readme = "README.md"
+dependencies = [
+    "numpy>=2",
+    "opencv-python-headless>=4.9",
+    "typesafe-sdk",
+    "av",  # decodes the device's H.264 screen stream
+    "pyobjc-framework-Quartz; sys_platform == 'darwin'",  # finds the emulator window for --view
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.7"]
+# Only for `clash-jev train`, which teaches the troop network from your own named pictures. Playing needs neither.
+train = ["torch", "onnx"]
+
+[project.scripts]
+clash-jev = "clash_jev.cli:main"
+
+[tool.setuptools.package-data]
+clash_jev = ["webapp/**/*", "official_cards.json", "card_shapes.json", "troop_model.onnx", "troop_model.json"]
+
+[tool.setuptools.packages.find]
+include = ["clash_jev*"]
+
+[tool.ruff]
+line-length = 110

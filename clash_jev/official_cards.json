@@ -1,0 +1,842 @@
+{
+ "archer_queen": {
+  "arena": 17,
+  "elixir": 5,
+  "name": "Archer Queen",
+  "rarity": "Champion",
+  "type": "Troop"
+ },
+ "archers": {
+  "arena": 0,
+  "elixir": 3,
+  "name": "Archers",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "arrows": {
+  "arena": 0,
+  "elixir": 3,
+  "name": "Arrows",
+  "rarity": "Common",
+  "type": "Spell"
+ },
+ "baby_dragon": {
+  "arena": 6,
+  "elixir": 4,
+  "name": "Baby Dragon",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "balloon": {
+  "arena": 7,
+  "elixir": 5,
+  "name": "Balloon",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "bandit": {
+  "arena": 13,
+  "elixir": 3,
+  "name": "Bandit",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "barb_barrel": {
+  "arena": 9,
+  "elixir": 2,
+  "name": "Barbarian Barrel",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "barb_hut": {
+  "arena": 9,
+  "elixir": 6,
+  "name": "Barbarian Hut",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "barbarians": {
+  "arena": 3,
+  "elixir": 5,
+  "name": "Barbarians",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "bats": {
+  "arena": 5,
+  "elixir": 2,
+  "name": "Bats",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "battle_healer": {
+  "arena": 8,
+  "elixir": 4,
+  "name": "Battle Healer",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "battle_ram": {
+  "arena": 3,
+  "elixir": 4,
+  "name": "Battle Ram",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "bomb_tower": {
+  "arena": 4,
+  "elixir": 4,
+  "name": "Bomb Tower",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "bomber": {
+  "arena": 2,
+  "elixir": 2,
+  "name": "Bomber",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "bowler": {
+  "arena": 13,
+  "elixir": 5,
+  "name": "Bowler",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "cannon": {
+  "arena": 3,
+  "elixir": 3,
+  "name": "Cannon",
+  "rarity": "Common",
+  "type": "Building"
+ },
+ "cannon_cart": {
+  "arena": 15,
+  "elixir": 5,
+  "name": "Cannon Cart",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "clone": {
+  "arena": 15,
+  "elixir": 3,
+  "name": "Clone",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "dark_prince": {
+  "arena": 7,
+  "elixir": 4,
+  "name": "Dark Prince",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "dart_goblin": {
+  "arena": 9,
+  "elixir": 3,
+  "name": "Dart Goblin",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "earthquake": {
+  "arena": 12,
+  "elixir": 3,
+  "name": "Earthquake",
+  "rarity": "Rare",
+  "type": "Spell"
+ },
+ "electro_dragon": {
+  "arena": 12,
+  "elixir": 5,
+  "name": "Electro Dragon",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "electro_giant": {
+  "arena": 13,
+  "elixir": 7,
+  "name": "Electro Giant",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "electro_spirit": {
+  "arena": 4,
+  "elixir": 1,
+  "name": "Electro Spirit",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "electro_wizard": {
+  "arena": 11,
+  "elixir": 4,
+  "name": "Electro Wizard",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "elite_barbarians": {
+  "arena": 10,
+  "elixir": 6,
+  "name": "Elite Barbarians",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "elixir_collector": {
+  "arena": 15,
+  "elixir": 6,
+  "name": "Elixir Collector",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "elixir_golem": {
+  "arena": 14,
+  "elixir": 3,
+  "name": "Elixir Golem",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "executioner": {
+  "arena": 14,
+  "elixir": 5,
+  "name": "Executioner",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "fire_cracker": {
+  "arena": 12,
+  "elixir": 3,
+  "name": "Firecracker",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "fire_spirit": {
+  "arena": 4,
+  "elixir": 1,
+  "name": "Fire Spirit",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "fireball": {
+  "arena": 0,
+  "elixir": 4,
+  "name": "Fireball",
+  "rarity": "Rare",
+  "type": "Spell"
+ },
+ "fisherman": {
+  "arena": 15,
+  "elixir": 3,
+  "name": "Fisherman",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "flying_machine": {
+  "arena": 5,
+  "elixir": 4,
+  "name": "Flying Machine",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "freeze": {
+  "arena": 8,
+  "elixir": 4,
+  "name": "Freeze",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "furnace": {
+  "arena": 10,
+  "elixir": 4,
+  "name": "Furnace",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "giant": {
+  "arena": 0,
+  "elixir": 5,
+  "name": "Giant",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "giant_skeleton": {
+  "arena": 8,
+  "elixir": 6,
+  "name": "Giant Skeleton",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "goblin_barrel": {
+  "arena": 6,
+  "elixir": 3,
+  "name": "Goblin Barrel",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "goblin_cage": {
+  "arena": 1,
+  "elixir": 4,
+  "name": "Goblin Cage",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "goblin_drill": {
+  "arena": 14,
+  "elixir": 4,
+  "name": "Goblin Drill",
+  "rarity": "Epic",
+  "type": "Building"
+ },
+ "goblin_gang": {
+  "arena": 9,
+  "elixir": 3,
+  "name": "Goblin Gang",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "goblin_giant": {
+  "arena": 9,
+  "elixir": 6,
+  "name": "Goblin Giant",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "goblin_hut": {
+  "arena": 1,
+  "elixir": 5,
+  "name": "Goblin Hut",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "goblins": {
+  "arena": 1,
+  "elixir": 2,
+  "name": "Goblins",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "golden_knight": {
+  "arena": 16,
+  "elixir": 4,
+  "name": "Golden Knight",
+  "rarity": "Champion",
+  "type": "Troop"
+ },
+ "golem": {
+  "arena": 10,
+  "elixir": 8,
+  "name": "Golem",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "graveyard": {
+  "arena": 12,
+  "elixir": 5,
+  "name": "Graveyard",
+  "rarity": "Legendary",
+  "type": "Spell"
+ },
+ "guards": {
+  "arena": 6,
+  "elixir": 3,
+  "name": "Guards",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "heal_spirit": {
+  "arena": 13,
+  "elixir": 1,
+  "name": "Heal Spirit",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "hog": {
+  "arena": 5,
+  "elixir": 4,
+  "name": "Hog Rider",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "hunter": {
+  "arena": 10,
+  "elixir": 4,
+  "name": "Hunter",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "ice_golem": {
+  "arena": 8,
+  "elixir": 2,
+  "name": "Ice Golem",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "ice_spirit": {
+  "arena": 8,
+  "elixir": 1,
+  "name": "Ice Spirit",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "ice_wizard": {
+  "arena": 12,
+  "elixir": 3,
+  "name": "Ice Wizard",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "inferno_dragon": {
+  "arena": 11,
+  "elixir": 4,
+  "name": "Inferno Dragon",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "inferno_tower": {
+  "arena": 4,
+  "elixir": 5,
+  "name": "Inferno Tower",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "knight": {
+  "arena": 0,
+  "elixir": 3,
+  "name": "Knight",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "lava_hound": {
+  "arena": 13,
+  "elixir": 7,
+  "name": "Lava Hound",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "lightning": {
+  "arena": 8,
+  "elixir": 6,
+  "name": "Lightning",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "log": {
+  "arena": 11,
+  "elixir": 2,
+  "name": "The Log",
+  "rarity": "Legendary",
+  "type": "Spell"
+ },
+ "lumberjack": {
+  "arena": 14,
+  "elixir": 4,
+  "name": "Lumberjack",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "magic_archer": {
+  "arena": 13,
+  "elixir": 4,
+  "name": "Magic Archer",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "mega_knight": {
+  "arena": 11,
+  "elixir": 7,
+  "name": "Mega Knight",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "mega_minion": {
+  "arena": 3,
+  "elixir": 3,
+  "name": "Mega Minion",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "mighty_miner": {
+  "arena": 17,
+  "elixir": 4,
+  "name": "Mighty Miner",
+  "rarity": "Champion",
+  "type": "Troop"
+ },
+ "miner": {
+  "arena": 11,
+  "elixir": 3,
+  "name": "Miner",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "mini_pekka": {
+  "arena": 0,
+  "elixir": 4,
+  "name": "Mini P.E.K.K.A",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "minion_horde": {
+  "arena": 10,
+  "elixir": 5,
+  "name": "Minion Horde",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "minions": {
+  "arena": 0,
+  "elixir": 3,
+  "name": "Minions",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "mirror": {
+  "arena": 15,
+  "elixir": 1,
+  "name": "Mirror",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "monk": {
+  "arena": 18,
+  "elixir": 5,
+  "name": "Monk",
+  "rarity": "Champion",
+  "type": "Troop"
+ },
+ "mortar": {
+  "arena": 5,
+  "elixir": 4,
+  "name": "Mortar",
+  "rarity": "Common",
+  "type": "Building"
+ },
+ "mother_witch": {
+  "arena": 15,
+  "elixir": 4,
+  "name": "Mother Witch",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "musketeer": {
+  "arena": 0,
+  "elixir": 4,
+  "name": "Musketeer",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "night_witch": {
+  "arena": 14,
+  "elixir": 4,
+  "name": "Night Witch",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "party_hut": {
+  "arena": 10,
+  "elixir": 5,
+  "name": "Party Hut",
+  "rarity": "Legendary",
+  "type": "Building"
+ },
+ "party_rocket": {
+  "arena": 15,
+  "elixir": 5,
+  "name": "Party Rocket",
+  "rarity": "Legendary",
+  "type": "Spell"
+ },
+ "pekka": {
+  "arena": 6,
+  "elixir": 7,
+  "name": "P.E.K.K.A",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "phoenix": {
+  "arena": 12,
+  "elixir": 4,
+  "name": "Phoenix",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "poison": {
+  "arena": 9,
+  "elixir": 4,
+  "name": "Poison",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "prince": {
+  "arena": 7,
+  "elixir": 5,
+  "name": "Prince",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "princess": {
+  "arena": 11,
+  "elixir": 3,
+  "name": "Princess",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "rage": {
+  "arena": 14,
+  "elixir": 2,
+  "name": "Rage",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "raging_prince": {
+  "arena": 7,
+  "elixir": 5,
+  "name": "Raging Prince",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "ram_rider": {
+  "arena": 11,
+  "elixir": 5,
+  "name": "Ram Rider",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "rascals": {
+  "arena": 13,
+  "elixir": 5,
+  "name": "Rascals",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "rocket": {
+  "arena": 5,
+  "elixir": 6,
+  "name": "Rocket",
+  "rarity": "Rare",
+  "type": "Spell"
+ },
+ "royal_delivery": {
+  "arena": 14,
+  "elixir": 3,
+  "name": "Royal Delivery",
+  "rarity": "Common",
+  "type": "Spell"
+ },
+ "royal_ghost": {
+  "arena": 12,
+  "elixir": 3,
+  "name": "Royal Ghost",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "royal_giant": {
+  "arena": 7,
+  "elixir": 6,
+  "name": "Royal Giant",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "royal_hogs": {
+  "arena": 7,
+  "elixir": 5,
+  "name": "Royal Hogs",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "royal_recruits": {
+  "arena": 7,
+  "elixir": 7,
+  "name": "Royal Recruits",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "santa_hog_rider": {
+  "arena": 5,
+  "elixir": 5,
+  "name": "Santa Hog Rider",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "skeleton_army": {
+  "arena": 6,
+  "elixir": 3,
+  "name": "Skeleton Army",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "skeleton_barrel": {
+  "arena": 9,
+  "elixir": 3,
+  "name": "Skeleton Barrel",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "skeleton_dragons": {
+  "arena": 4,
+  "elixir": 4,
+  "name": "Skeleton Dragons",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "skeleton_king": {
+  "arena": 16,
+  "elixir": 4,
+  "name": "Skeleton King",
+  "rarity": "Champion",
+  "type": "Troop"
+ },
+ "skeletons": {
+  "arena": 2,
+  "elixir": 1,
+  "name": "Skeletons",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "snowball": {
+  "arena": 8,
+  "elixir": 2,
+  "name": "Giant Snowball",
+  "rarity": "Common",
+  "type": "Spell"
+ },
+ "sparky": {
+  "arena": 11,
+  "elixir": 6,
+  "name": "Sparky",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "spear_goblins": {
+  "arena": 1,
+  "elixir": 2,
+  "name": "Spear Goblins",
+  "rarity": "Common",
+  "type": "Troop"
+ },
+ "super_archers": {
+  "arena": 24,
+  "elixir": 3,
+  "name": "Super Archers",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "super_ice_golem": {
+  "arena": 8,
+  "elixir": 4,
+  "name": "Super Ice Golem",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "super_lava_hound": {
+  "arena": 10,
+  "elixir": 8,
+  "name": "Super Lava Hound",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "super_magic_archer": {
+  "arena": 13,
+  "elixir": 5,
+  "name": "Super Magic Archer",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "super_mini_pekka": {
+  "arena": 14,
+  "elixir": 5,
+  "name": "Super Mini P.E.K.K.A",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "super_witch": {
+  "arena": 5,
+  "elixir": 6,
+  "name": "Super Witch",
+  "rarity": "Legendary",
+  "type": "Troop"
+ },
+ "terry": {
+  "arena": 16,
+  "elixir": 4,
+  "name": "Terry",
+  "rarity": "Champion",
+  "type": "Troop"
+ },
+ "tesla": {
+  "arena": 10,
+  "elixir": 4,
+  "name": "Tesla",
+  "rarity": "Common",
+  "type": "Building"
+ },
+ "three_musketeers": {
+  "arena": 7,
+  "elixir": 9,
+  "name": "Three Musketeers",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "tombstone": {
+  "arena": 2,
+  "elixir": 3,
+  "name": "Tombstone",
+  "rarity": "Rare",
+  "type": "Building"
+ },
+ "tornado": {
+  "arena": 15,
+  "elixir": 3,
+  "name": "Tornado",
+  "rarity": "Epic",
+  "type": "Spell"
+ },
+ "valkyrie": {
+  "arena": 2,
+  "elixir": 4,
+  "name": "Valkyrie",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "wall_breakers": {
+  "arena": 12,
+  "elixir": 2,
+  "name": "Wall Breakers",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "witch": {
+  "arena": 6,
+  "elixir": 5,
+  "name": "Witch",
+  "rarity": "Epic",
+  "type": "Troop"
+ },
+ "wizard": {
+  "arena": 4,
+  "elixir": 5,
+  "name": "Wizard",
+  "rarity": "Rare",
+  "type": "Troop"
+ },
+ "xbow": {
+  "arena": 10,
+  "elixir": 6,
+  "name": "X-Bow",
+  "rarity": "Epic",
+  "type": "Building"
+ },
+ "zap": {
+  "arena": 5,
+  "elixir": 2,
+  "name": "Zap",
+  "rarity": "Common",
+  "type": "Spell"
+ },
+ "zappies": {
+  "arena": 10,
+  "elixir": 4,
+  "name": "Zappies",
+  "rarity": "Rare",
+  "type": "Troop"
+ }
+}

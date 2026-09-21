@@ -1,0 +1,32 @@
+{
+ "cards": [
+  "archers",
+  "bomber",
+  "giant",
+  "goblin_cage",
+  "goblin_hut",
+  "goblins",
+  "knight",
+  "mini_pekka",
+  "minions",
+  "musketeer",
+  "skeletons",
+  "spear_goblins"
+ ],
+ "pictures": 1975,
+ "troops_named_right": 0.836,
+ "per_card": {
+  "archers": "29/33",
+  "bomber": "3/6",
+  "giant": "31/31",
+  "goblin_cage": "11/12",
+  "goblin_hut": "5/5",
+  "goblins": "51/63",
+  "knight": "37/45",
+  "mini_pekka": "21/26",
+  "minions": "18/20",
+  "musketeer": "17/18",
+  "skeletons": "11/14",
+  "spear_goblins": "62/81"
+ }
+}

@@ -1,0 +1,24 @@
+__pycache__/
+.env
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+.DS_Store
+runs/
+snap.png
+clash_jev/extra_card_shapes.json
+# Third-party weights from earlier experiments: never part of this project.
+models/
+# Published replays hold a match video: which matches go public is decided one by one, not by a commit.
+web/public/replays/
+# A built copy of web/ placed here for a packaged install.
+clash_jev/webapp/
+
+# The staged copy of the built site that is deployed, with its Vercel link.
+web/.deploy/
+# How the public site is deployed stays with the maintainers.
+web/deploy.sh
+
+# How the write-up is generated; the page itself is docs/index.html.
+docs/.build/
