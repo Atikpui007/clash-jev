@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { CircleStop, FlaskConical, Images, Layers, type LucideIcon, MessageSquare, Play, Settings2, TabletSmartphone, Timer, Unplug } from "lucide-react"
+import { CircleStop, Download, FlaskConical, Laptop, Images, Layers, type LucideIcon, MessageSquare, Play, Settings2, TabletSmartphone, Timer, Unplug } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
@@ -28,9 +28,42 @@ function Empty({ icon: Icon, title, hint, code }: { icon: LucideIcon; title: str
   )
 }
 
+const CODE = "https://github.com/bytelabs-oss/clash-jev#setup"
+
+/** On the public site there is no bot to talk to: live mode runs on the visitor's own machine. */
+function RunItLocally() {
+  return (
+    <div className="grid size-full place-items-center overflow-y-auto p-6 text-center">
+      <div className="max-w-sm space-y-4">
+        <div className="mx-auto grid size-14 place-items-center rounded-full bg-muted text-muted-foreground">
+          <Laptop className="size-7" />
+        </div>
+        <p className="text-base font-medium">Live mode runs on your own machine</p>
+        <p className="text-sm text-muted-foreground">
+          This site plays back recorded matches. To watch Jev play live, the bot has to run on a computer with an Android device plugged in over USB. It reads the screen and sends
+          the taps from there.
+        </p>
+        <ol className="space-y-2 text-left text-sm text-muted-foreground">
+          <li>1. Download the code and install it.</li>
+          <li>2. Plug in an Android device with Clash Royale and USB debugging on.</li>
+          <li>
+            3. Run <code className="rounded-md border bg-background px-1.5 py-0.5 text-xs">clash-jev serve</code> and open{" "}
+            <code className="rounded-md border bg-background px-1.5 py-0.5 text-xs">http://127.0.0.1:8765</code>. It is this same page, with the live feed.
+          </li>
+        </ol>
+        <Button render={<a href={CODE} target="_blank" rel="noreferrer" />} className="gap-2">
+          <Download className="size-4" /> Get the code
+        </Button>
+      </div>
+    </div>
+  )
+}
+
 /** The bot on this machine, as it plays: the tablet's picture, and every decision as it is made. */
 export function LiveView({ onMode }: { onMode: (mode: Mode) => void }) {
-  const live = useLive(true)
+  // Only a page opened on this machine can reach the bot. Anywhere else, say how to run it.
+  const [hosted] = useState(() => !["localhost", "127.0.0.1"].includes(window.location.hostname))
+  const live = useLive(!hosted)
   const [cap, setCap] = useState(250)
   const [every, setEvery] = useState(1)
   const [now, setNow] = useState(0)
@@ -57,14 +90,16 @@ export function LiveView({ onMode }: { onMode: (mode: Mode) => void }) {
   const message = live.control?.message ?? ""
   const deviceLost = message.startsWith("Cannot read the device")
   const [feedBroken, setFeedBroken] = useState(0) // the boot the feed failed under; a restart of the bot clears it
-  const noPicture = !live.connected || deviceLost || feedBroken === live.boot + 1
+  const noPicture = hosted || !live.connected || deviceLost || feedBroken === live.boot + 1
   // Worth a line under the screen: progress while collecting, or something that went wrong. Not the last run's log path.
   // A missing device is already said where the picture would be; it is not repeated underneath.
   const caption = !noPicture && (live.control?.mode === "collecting" || /error|cannot/i.test(message)) ? message : null
   const screen = (
     <figure className="flex min-h-0 flex-col gap-2">
       <div className={cn("relative mx-auto w-full max-lg:max-w-[calc(58dvh*0.625)] aspect-[5/8] overflow-hidden rounded-xl border", noPicture ? "border-dashed bg-muted/30" : "bg-black")}>
-        {noPicture ? (
+        {hosted ? (
+          <RunItLocally />
+        ) : noPicture ? (
           <Empty
             icon={live.connected ? TabletSmartphone : Unplug}
             title={live.connected ? "No device connected" : "The bot is not running"}
@@ -88,7 +123,9 @@ export function LiveView({ onMode }: { onMode: (mode: Mode) => void }) {
   const lastRun = message.match(/Finished: (\d+) cards played, (\d+) decisions, (\d+) Jev requests/)
   const idleLine = running
     ? undefined
-    : lastRun
+    : hosted
+      ? "Live decisions appear here when the bot runs on your own machine. The recorded matches are under Replay."
+      : lastRun
       ? `Last run: ${lastRun[1]} cards played · ${lastRun[2]} decisions · ${lastRun[3]} Jev requests. It is under Replay once published. Enter a match and press Start for the next one.`
       : "Enter a match, then press Start. Jev's decisions appear here as it makes them."
   const headerRight = (
@@ -152,15 +189,15 @@ export function LiveView({ onMode }: { onMode: (mode: Mode) => void }) {
     <Shell
       mode="live"
       onMode={onMode}
-      headerRight={headerRight}
+      headerRight={hosted ? null : headerRight}
       screen={screen}
-      dock={dock}
+      dock={hosted ? null : dock}
       decision={decision}
       picked={live.picked}
       active={active}
       questions={live.questions}
       state={inMatch ? live.state : null}
-      noState={live.connected ? "No match on screen. The game state appears once you are in a battle." : undefined}
+      noState={hosted ? "The game state appears here when the bot runs on your own machine." : live.connected ? "No match on screen. The game state appears once you are in a battle." : undefined}
       briefing={live.briefing}
       decisions={live.decisions}
       current={live.decisions.length - 1}
