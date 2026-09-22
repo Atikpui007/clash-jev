@@ -93,6 +93,29 @@ GAME = {
         "big spell": "Expensive, heavy area damage. Kills medium-health troops outright and takes a real share off a tower; still does little to a tank.",
         "utility spell": "A spell that does no real damage and changes the situation another way: freezing, speeding up, copying or moving troops.",
     },
+    "tactics": {
+        "elixir trade": (
+            "Every fight is a trade of elixir: what you spent on your card against what the "
+            "opponent spent on theirs. A trade is positive when the card you spent less on kills or "
+            "outlasts the card the opponent spent more on; it is negative the other way round. "
+            "Defending with the cheapest card that stops the threat, rather than the strongest one "
+            "available, keeps trades positive and leaves you with more elixir than the opponent for "
+            "what comes next."
+        ),
+        "overcommitment": (
+            "Spending more elixir on a lane than the threat in it requires leaves you without "
+            "elixir to answer whatever the opponent does next, including in the other lane. A "
+            "single card that stops the attack is usually enough; adding more elixir on top of it "
+            "is an overcommitment unless you mean to turn the defence into a counter push."
+        ),
+        "king tower activation": (
+            "A king tower only starts shooting once it has taken damage or its own princess tower "
+            "has fallen; once activated it fights alongside the remaining princess tower for the "
+            "rest of the match. Letting a push reach your king tower is costly for this reason as "
+            "well as the health lost. Activating the opponent's king tower, by the same token, adds "
+            "a second tower to whatever is already defending their side."
+        ),
+    },
     "glossary": {
         "troop": "A card that becomes one or more units which move and fight on their own until they die.",
         "building": "A card that stays where it is placed, acts from there, and loses health over time until it disappears.",
